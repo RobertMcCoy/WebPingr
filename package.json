@@ -1,0 +1,27 @@
+{
+  "name": "webpingr",
+  "version": "1.0.0",
+  "description": "Electron application designed to ping websites and keep them warm",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertMcCoy/WebPingr.git"
+  },
+  "keywords": [
+    "website",
+    "warmup",
+    "ping"
+  ],
+  "author": "Robert McCoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertMcCoy/WebPingr/issues"
+  },
+  "homepage": "https://github.com/RobertMcCoy/WebPingr#readme",
+  "devDependencies": {
+    "electron": "^1.7.9"
+  }
+}
